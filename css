@@ -1,0 +1,52 @@
+/* Собственные стили блоков */
+
+.logo,
+.contacts,
+.footer {
+    background: #333333;
+    color: #ffffff;
+    }
+
+.header {
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    float: left;
+
+    width: 225px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contacts {
+    float: right;
+
+    width: 110px;
+    text-align: center;
+    font-style: italic;
+}
+
+.about-us {
+    float: left;
+
+    width: 225px;
+    margin-bottom: 20px;
+}
+
+.about-us h1 { font-size: 20px; }
+
+.about-us p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.main-menu {
+    float: right;
+
+    width: 110px;
+}
+
+.footer { clear:both; }
+
